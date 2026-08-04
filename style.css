@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#111;
+    border-bottom:2px solid gold;
+}
+
+.logo h1{
+    color:#00d4ff;
+    margin:0;
+}
+
+.logo p{
+    color:gold;
+    margin:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(#0b0b0b,#151515);
+}
+
+.hero h2{
+    color:#00d4ff;
+    font-size:40px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin:10px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+#services{
+    padding:40px;
+}
+
+#services h2{
+    color:gold;
+}
+
+footer{
+    background:#111;
+    padding:20px;
+    text-align:center;
+}
