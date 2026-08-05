@@ -6,12 +6,16 @@ body{
 }
 
 header{
+    position:sticky;
+    top:0;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px;
-    background:#111;
-    border-bottom:2px solid gold;
+    padding:15px 40px;
+    background:rgba(0,0,0,.9);
+    backdrop-filter:blur(10px);
+    border-bottom:2px solid #FFD700;
+    z-index:1000;
 }
 
 .logo h1{
@@ -24,10 +28,24 @@ header{
     margin:0;
 }
 
+nav{
+    display:flex;
+    gap:20px;
+}
+
 nav a{
-    color:white;
+    color:#fff;
     text-decoration:none;
-    margin-left:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+.logo-img{
+    width:70px;
 }
 
 .hero{
