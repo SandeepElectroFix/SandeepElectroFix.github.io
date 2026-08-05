@@ -332,3 +332,18 @@ cursor:pointer;
     color:#fff;
     transform:scale(1.05);
 }
+#contact{
+    padding:60px 20px;
+    text-align:center;
+    background:#111;
+}
+
+#contact h2{
+    color:gold;
+    margin-bottom:20px;
+}
+
+#contact p{
+    color:#ddd;
+    line-height:1.8;
+}
