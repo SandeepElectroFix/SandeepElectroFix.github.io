@@ -310,7 +310,23 @@ cursor:pointer;
     font-weight:bold;
     transition:.3s;
 }
+#about{
+    padding:50px 20px;
+    text-align:center;
+    background:#111;
+}
 
+#about h2{
+    color:gold;
+    margin-bottom:20px;
+}
+
+#about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    color:#ddd;
+}
 .btn:hover{
     background:#00d4ff;
     color:#fff;
