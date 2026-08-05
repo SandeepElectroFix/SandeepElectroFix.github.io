@@ -119,3 +119,30 @@ header{
     border-radius:10px;
     border:2px solid gold;
 }
+#about{
+    padding:40px 20px;
+    background:#181818;
+    text-align:center;
+}
+
+#about h2{
+    color:#FFD700;
+    margin-bottom:20px;
+}
+
+#about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+#about ul{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+#about li{
+    margin:10px 0;
+    font-size:18px;
+}
