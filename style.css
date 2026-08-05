@@ -167,3 +167,22 @@ header{
 .floating-whatsapp:hover{
     transform:scale(1.1);
 }
+#reviews{
+    padding:50px 20px;
+    text-align:center;
+    background:#0f0f0f;
+}
+
+#reviews h2{
+    color:gold;
+    margin-bottom:30px;
+}
+
+.review-card{
+    background:#1a1a1a;
+    border:1px solid gold;
+    border-radius:12px;
+    padding:20px;
+    margin:15px auto;
+    max-width:500px;
+}
