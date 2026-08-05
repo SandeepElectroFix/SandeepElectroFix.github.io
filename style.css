@@ -186,3 +186,37 @@ header{
     margin:15px auto;
     max-width:500px;
 }
+.hero{
+    min-height:70vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+    background:linear-gradient(135deg,#000,#111,#002b36);
+}
+
+.hero-logo{
+    width:160px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    color:#FFD700;
+    font-size:40px;
+    margin:10px 0;
+}
+
+.hero p{
+    font-size:20px;
+    color:#ddd;
+}
+
+.hero-buttons{
+    margin-top:25px;
+}
+
+.btn{
+    margin:8px;
+}
