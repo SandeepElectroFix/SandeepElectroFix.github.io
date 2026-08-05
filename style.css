@@ -77,3 +77,24 @@ header{
     align-items: center;
     padding: 15px 20px;
 }
+#contact{
+    padding:40px 20px;
+    background:#111;
+    text-align:center;
+}
+
+#contact h2{
+    color:gold;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+#contact p{
+    font-size:18px;
+    margin:10px 0;
+}
+
+#contact .btn{
+    margin-top:20px;
+    display:inline-block;
+}
