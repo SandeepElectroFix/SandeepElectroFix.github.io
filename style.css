@@ -945,3 +945,42 @@ opacity:0;
     font-size:40px;
     cursor:pointer;
 }
+/* ===== Sticky Bottom Bar ===== */
+
+.bottom-bar{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    display:none;
+    z-index:9999;
+}
+
+.bottom-btn{
+    flex:1;
+    padding:16px;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.call-btn{
+    background:#d4af37;
+    color:#000;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+}
+
+@media(max-width:768px){
+    .bottom-bar{
+        display:flex;
+    }
+
+    body{
+        padding-bottom:70px;
+    }
+}
