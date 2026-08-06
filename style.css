@@ -1022,3 +1022,40 @@ margin-top:10px;
 grid-template-columns:repeat(2,1fr);
 }
 }
+/* ===== Before After Slider ===== */
+
+#before-after{
+padding:60px 8%;
+text-align:center;
+}
+
+.ba-slider{
+position:relative;
+max-width:900px;
+margin:auto;
+overflow:hidden;
+border-radius:15px;
+}
+
+.ba-slider img{
+width:100%;
+display:block;
+}
+
+.before-wrapper{
+position:absolute;
+top:0;
+left:0;
+width:50%;
+overflow:hidden;
+height:100%;
+}
+
+.slider{
+position:absolute;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+width:80%;
+cursor:pointer;
+}
