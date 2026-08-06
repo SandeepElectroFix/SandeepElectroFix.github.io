@@ -268,3 +268,17 @@ counter.innerText = target + "+";
 update();
 
 });
+/* Before After Slider */
+
+const slider = document.querySelector(".slider");
+const before = document.querySelector(".before-wrapper");
+
+if(slider && before){
+
+slider.addEventListener("input",function(){
+
+before.style.width=this.value+"%";
+
+});
+
+}
