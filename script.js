@@ -198,3 +198,20 @@ if ("serviceWorker" in navigator) {
       .catch(err => console.log("Service Worker Error:", err));
   });
 }
+/* Loader */
+
+window.addEventListener("load", function () {
+
+    setTimeout(function () {
+
+        const loader = document.getElementById("loader");
+
+        loader.style.opacity = "0";
+
+        setTimeout(function () {
+            loader.style.display = "none";
+        }, 600);
+
+    }, 1800);
+
+});
