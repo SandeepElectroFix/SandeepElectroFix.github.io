@@ -1216,3 +1216,26 @@ transform:translateY(-8px);
 box-shadow:0 0 20px rgba(0,229,255,.3);
 border-color:#00e5ff;
 }
+/* ===== Emergency Banner ===== */
+
+.emergency-banner{
+    background:linear-gradient(90deg,#d4af37,#00bcd4);
+    padding:30px 20px;
+    text-align:center;
+    color:#000;
+}
+
+.emergency-banner h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.emergency-banner p{
+    font-size:18px;
+    margin-bottom:20px;
+    font-weight:500;
+}
+
+.emergency-banner .btn{
+    margin:8px;
+}
