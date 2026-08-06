@@ -1287,3 +1287,16 @@ body.light .btn{
     background:#00bcd4;
     color:#fff;
 }
+/* ===== Visitor Counter ===== */
+
+.visitor-counter{
+    margin:20px 0;
+    text-align:center;
+    font-size:18px;
+    color:#d4af37;
+}
+
+.visitor-counter img{
+    vertical-align:middle;
+    margin-left:8px;
+}
