@@ -1300,3 +1300,27 @@ body.light .btn{
     vertical-align:middle;
     margin-left:8px;
 }
+/* ===== Service Area ===== */
+
+.area-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.area-card{
+    background:#111;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    border-radius:12px;
+    border:1px solid #333;
+    transition:.3s;
+    font-weight:600;
+}
+
+.area-card:hover{
+    transform:translateY(-6px);
+    border-color:#d4af37;
+    box-shadow:0 0 15px rgba(0,229,255,.3);
+}
