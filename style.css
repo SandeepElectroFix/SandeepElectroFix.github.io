@@ -984,3 +984,41 @@ opacity:0;
         padding-bottom:70px;
     }
 }
+/* ===== Statistics ===== */
+
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:60px 8%;
+text-align:center;
+}
+
+.stat-box{
+background:#111;
+padding:25px;
+border-radius:15px;
+border:1px solid #333;
+transition:.3s;
+}
+
+.stat-box:hover{
+transform:translateY(-8px);
+border-color:#d4af37;
+}
+
+.stat-box h2{
+font-size:40px;
+color:#00e5ff;
+}
+
+.stat-box p{
+color:#ccc;
+margin-top:10px;
+}
+
+@media(max-width:768px){
+.stats{
+grid-template-columns:repeat(2,1fr);
+}
+}
