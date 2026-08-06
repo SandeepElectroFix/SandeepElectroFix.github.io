@@ -282,3 +282,25 @@ before.style.width=this.value+"%";
 });
 
 }
+/* ===== Dark / Light Theme ===== */
+
+const themeBtn = document.getElementById("themeToggle");
+
+if(localStorage.getItem("theme") === "light"){
+    document.body.classList.add("light");
+    themeBtn.textContent = "☀️";
+}
+
+themeBtn.onclick = () => {
+
+    document.body.classList.toggle("light");
+
+    if(document.body.classList.contains("light")){
+        localStorage.setItem("theme","light");
+        themeBtn.textContent="☀️";
+    }else{
+        localStorage.setItem("theme","dark");
+        themeBtn.textContent="🌙";
+    }
+
+};
