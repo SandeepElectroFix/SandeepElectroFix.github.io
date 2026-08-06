@@ -1133,3 +1133,34 @@ cursor:pointer;
 }
 
 }
+/* ===== Animated Circuit Background ===== */
+
+.circuit-bg{
+    position:absolute;
+    inset:0;
+    background-image:
+        linear-gradient(rgba(0,229,255,.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,229,255,.08) 1px, transparent 1px);
+
+    background-size:60px 60px;
+    animation:circuitMove 15s linear infinite;
+    opacity:.5;
+    z-index:0;
+}
+
+.hero > *{
+    position:relative;
+    z-index:2;
+}
+
+@keyframes circuitMove{
+
+0%{
+    background-position:0 0;
+}
+
+100%{
+    background-position:60px 60px;
+}
+
+}
