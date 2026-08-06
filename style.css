@@ -1059,3 +1059,74 @@ transform:translateX(-50%);
 width:80%;
 cursor:pointer;
 }
+/* ===== Electric Sparks ===== */
+
+.hero{
+    position:relative;
+    overflow:hidden;
+}
+
+.sparks{
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+}
+
+.sparks span{
+    position:absolute;
+    width:3px;
+    height:120px;
+    background:linear-gradient(transparent,#00e5ff,transparent);
+    opacity:0;
+    animation:spark 4s linear infinite;
+}
+
+.sparks span:nth-child(1){
+    left:10%;
+    animation-delay:0s;
+}
+
+.sparks span:nth-child(2){
+    left:25%;
+    animation-delay:.8s;
+}
+
+.sparks span:nth-child(3){
+    left:40%;
+    animation-delay:1.6s;
+}
+
+.sparks span:nth-child(4){
+    left:60%;
+    animation-delay:2.4s;
+}
+
+.sparks span:nth-child(5){
+    left:75%;
+    animation-delay:3.2s;
+}
+
+.sparks span:nth-child(6){
+    left:90%;
+    animation-delay:4s;
+}
+
+@keyframes spark{
+
+0%{
+    top:-20%;
+    opacity:0;
+    transform:rotate(20deg);
+}
+
+15%{
+    opacity:1;
+}
+
+100%{
+    top:120%;
+    opacity:0;
+    transform:rotate(20deg);
+}
+
+}
