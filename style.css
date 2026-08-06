@@ -130,7 +130,10 @@ nav a:hover{
 .hero-logo:hover{
     transform:scale(1.08);
 }
-
+.hero-logo{
+    filter:drop-shadow(0 0 20px #00e5ff)
+           drop-shadow(0 0 40px #00e5ff);
+}
 
 
 .hero h1{
